@@ -31,3 +31,16 @@ Lo que te encontrás al levantar la .sln es una librería con el objeto de negoc
 La resolución es libre y cómo encarar el problema queda en el criterio de quien lo resuelva!
 
 **¡¡Éxitos padawan!!**
+
+
+
+Buenos dias, envio algunos comentarios sobre los cambios hechos:
+
+- Refactorizacion de la clase FormaGeometrica:
+Utilice un enfoque de abstraccion, haciendo foco en los principios de programación orientada a objetos, como Herencia, encapsulamiento, polimorfismo.
+Utilice principios SOLID, como el principio de responsabilidad unica y el principio abierto cerrado.
+
+- Se agregó un proyecto web api q contiene los endpoint para calcular el perimetro y area reutilizando las clases existentes de las formas geometricas, se agrega también su respectiva documentación en la carpeta Documentacion dentro del proyecto web api.
+  Utilice .net 8 y le di un enfoque diferente, utilizando interfaces y servicios.
+
+Sin mas, saludos!
