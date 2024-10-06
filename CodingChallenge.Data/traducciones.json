@@ -1,0 +1,95 @@
+{
+  "es": {
+    "cuadrado": {
+      "singular": "Cuadrado",
+      "plural": "Cuadrados"
+    },
+    "circulo": {
+      "singular": "Círculo",
+      "plural": "Círculos"
+    },
+    "triangulo": {
+      "singular": "Triángulo",
+      "plural": "Triángulos"
+    },
+    "trapecio": {
+      "singular": "Trapecio",
+      "plural": "Trapecios"
+    },
+    "rectangulo": {
+      "singular": "Rectángulo",
+      "plural": "Rectángulos"
+    },
+    "reporte": {
+      "singular": "Reporte de Formas",
+      "plural": "Reportes de Formas"
+    },
+    "lista_vacia": "Lista vacía de formas!",
+    "total": "TOTAL",
+    "formas": "formas",
+    "perimetro": "Perímetro",
+    "area": "Área"
+  },
+  "en": {
+    "cuadrado": {
+      "singular": "Square",
+      "plural": "Squares"
+    },
+    "circulo": {
+      "singular": "Circle",
+      "plural": "Circles"
+    },
+    "triangulo": {
+      "singular": "Triangle",
+      "plural": "Triangles"
+    },
+    "trapecio": {
+      "singular": "Trapezium",
+      "plural": "Trapeziums"
+    },
+    "rectangulo": {
+      "singular": "Rectangle",
+      "plural": "Rectangles"
+    },
+    "reporte": {
+      "singular": "Shapes report",
+      "plural": "Shapes reports"
+    },
+    "lista_vacia": "Empty list of shapes!",
+    "total": "TOTAL",
+    "formas": "shapes",
+    "perimetro": "Perimeter",
+    "area": "Area"
+  },
+  "fr": {
+    "cuadrado": {
+      "singular": "Carré",
+      "plural": "Carrés"
+    },
+    "circulo": {
+      "singular": "Cercle",
+      "plural": "Cercles"
+    },
+    "triangulo": {
+      "singular": "Triangle",
+      "plural": "Triangles"
+    },
+    "trapecio": {
+      "singular": "Trapèze",
+      "plural": "Trapèzes"
+    },
+    "rectangulo": {
+      "singular": "Rectangle",
+      "plural": "Rectangles"
+    },
+    "reporte": {
+      "singular": "Rapport des formes",
+      "plural": "Rapports des formes"
+    },
+    "lista_vacia": "Liste vide de formes!",
+    "total": "TOTAL",
+    "formas": "formes",
+    "perimetro": "Périmètre",
+    "area": "Aire"
+  }
+}
