@@ -45,6 +45,5 @@ namespace CodingChallenge.Data.Classes
             }
             throw new ArgumentException("Idioma no soportado.");
         }
-
     }
 }

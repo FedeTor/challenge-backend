@@ -1,0 +1,341 @@
+{
+	"info": {
+		"_postman_id": "1237c6b6-7c88-4d91-b0cc-b94af38c1fa6",
+		"name": "CodingChallenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20356962",
+		"_collection_link": "https://lunar-zodiac-45082.postman.co/workspace/Challenge~dd112050-8209-4412-ab29-908ce84dfb71/collection/20356962-1237c6b6-7c88-4d91-b0cc-b94af38c1fa6?action=share&source=collection_link&creator=20356962"
+	},
+	"item": [
+		{
+			"name": "Calcular Area",
+			"item": [
+				{
+					"name": "/api/formas/area/cuadrado?dimensiones=5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7177/api/formas/area/cuadrado?dimensiones=5",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"area",
+								"cuadrado"
+							],
+							"query": [
+								{
+									"key": "dimensiones",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/formas/area/circulo?dimensiones=3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7177/api/formas/area/circulo?dimensiones=3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"area",
+								"circulo"
+							],
+							"query": [
+								{
+									"key": "dimensiones",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http/api/formas/area/rectangulo?dimensiones=4&dimensiones=6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7177/api/formas/area/rectangulo?dimensiones=4&dimensiones=6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"area",
+								"rectangulo"
+							],
+							"query": [
+								{
+									"key": "dimensiones",
+									"value": "4"
+								},
+								{
+									"key": "dimensiones",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/formas/area/trapecio?dimensiones=8&dimensiones=5&dimensiones=4&dimensiones=6&dimensiones=7",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7177/api/formas/area/trapecio?dimensiones=8&dimensiones=5&dimensiones=4&dimensiones=6&dimensiones=7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"area",
+								"trapecio"
+							],
+							"query": [
+								{
+									"key": "dimensiones",
+									"value": "8"
+								},
+								{
+									"key": "dimensiones",
+									"value": "5"
+								},
+								{
+									"key": "dimensiones",
+									"value": "4"
+								},
+								{
+									"key": "dimensiones",
+									"value": "6"
+								},
+								{
+									"key": "dimensiones",
+									"value": "7"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/formas/area/triangulo%20equilatero?dimensiones=6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7177/api/formas/area/triangulo%20equilatero?dimensiones=6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"area",
+								"triangulo%20equilatero"
+							],
+							"query": [
+								{
+									"key": "dimensiones",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Calcular Perimetro",
+			"item": [
+				{
+					"name": "/api/formas/perimetro/cuadrado?dimensiones=5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7177/api/formas/perimetro/cuadrado?dimensiones=5",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"perimetro",
+								"cuadrado"
+							],
+							"query": [
+								{
+									"key": "dimensiones",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/formas/perimetro/circulo?dimensiones=3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7177/api/formas/perimetro/circulo?dimensiones=3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"perimetro",
+								"circulo"
+							],
+							"query": [
+								{
+									"key": "dimensiones",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/formas/perimetro/rectangulo?dimensiones=4&dimensiones=6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7177/api/formas/perimetro/rectangulo?dimensiones=4&dimensiones=6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"perimetro",
+								"rectangulo"
+							],
+							"query": [
+								{
+									"key": "dimensiones",
+									"value": "4"
+								},
+								{
+									"key": "dimensiones",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/formas/perimetro/trapecio?dimensiones=8&dimensiones=5&dimensiones=4&dimensiones=6&dimensiones=7",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7177/api/formas/perimetro/trapecio?dimensiones=8&dimensiones=5&dimensiones=4&dimensiones=6&dimensiones=7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"perimetro",
+								"trapecio"
+							],
+							"query": [
+								{
+									"key": "dimensiones",
+									"value": "8"
+								},
+								{
+									"key": "dimensiones",
+									"value": "5"
+								},
+								{
+									"key": "dimensiones",
+									"value": "4"
+								},
+								{
+									"key": "dimensiones",
+									"value": "6"
+								},
+								{
+									"key": "dimensiones",
+									"value": "7"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/formas/perimetro/triangulo%20equilatero?dimensiones=6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7177/api/formas/perimetro/triangulo%20equilatero?dimensiones=6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"perimetro",
+								"triangulo%20equilatero"
+							],
+							"query": [
+								{
+									"key": "dimensiones",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

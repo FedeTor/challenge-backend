@@ -80,5 +80,4 @@ namespace CodingChallenge.Data.Classes
             }
         }
     }
-
 }
