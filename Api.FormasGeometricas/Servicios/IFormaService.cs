@@ -4,7 +4,7 @@ namespace Api.FormasGeometricas.Servicios
 {
     public interface IFormaService
     {
-        RespuestaFinal CalcularArea(string tipoForma, params decimal[] dimensiones);
-        RespuestaFinal CalcularPerimetro(string tipoForma, params decimal[] dimensiones);
+        RespuestaFinal CalcularArea(string tipoForma, decimal[] dimensiones, string idioma);
+        RespuestaFinal CalcularPerimetro(string tipoForma, decimal[] dimensiones, string idioma);
     }
 }

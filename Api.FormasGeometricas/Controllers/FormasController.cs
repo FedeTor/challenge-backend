@@ -1,4 +1,5 @@
-﻿using Api.FormasGeometricas.Modal.Respuesta;
+﻿using Api.FormasGeometricas.Modal.Request;
+using Api.FormasGeometricas.Modal.Respuesta;
 using Api.FormasGeometricas.Servicios;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,18 +14,17 @@ public class FormasController : ControllerBase
         _formaService = formaService;
     }
 
-    [HttpGet("area/{tipoForma}")]
-    public ActionResult<RespuestaFinal> CalcularArea(string tipoForma, [FromQuery] decimal[] dimensiones)
+    [HttpPost("calcular-area")]
+    public ActionResult<RespuestaFinal> CalcularArea([FromBody] CalcularAreaRequest request)
     {
-        var respuesta = _formaService.CalcularArea(tipoForma, dimensiones);
-        return respuesta.Exito ? Ok(respuesta) : BadRequest(respuesta);
+        var respuesta = _formaService.CalcularArea(request.TipoForma, request.Dimensiones, request.Idioma);
+        return Ok(respuesta);
     }
 
-    [HttpGet("perimetro/{tipoForma}")]
-    public ActionResult<RespuestaFinal> CalcularPerimetro(string tipoForma, [FromQuery] decimal[] dimensiones)
+    [HttpPost("calcular-perimetro")]
+    public ActionResult<RespuestaFinal> CalcularPerimetro([FromBody] CalcularPerimetroRequest request)
     {
-        var respuesta = _formaService.CalcularPerimetro(tipoForma, dimensiones);
-        return respuesta.Exito ? Ok(respuesta) : BadRequest(respuesta);
+        var respuesta = _formaService.CalcularPerimetro(request.TipoForma, request.Dimensiones, request.Idioma);
+        return Ok(respuesta);
     }
 }
-

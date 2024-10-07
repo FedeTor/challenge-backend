@@ -1,4 +1,5 @@
 using Api.FormasGeometricas.Servicios;
+using CodingChallenge.Update.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IFormaService, FormaService>();
+builder.Services.AddSingleton<AdministrarIdioma>();
 
 var app = builder.Build();
 

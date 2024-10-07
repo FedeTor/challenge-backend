@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "1237c6b6-7c88-4d91-b0cc-b94af38c1fa6",
+		"name": "CodingChallenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20356962",
+		"_collection_link": "https://lunar-zodiac-45082.postman.co/workspace/Challenge~dd112050-8209-4412-ab29-908ce84dfb71/collection/20356962-1237c6b6-7c88-4d91-b0cc-b94af38c1fa6?action=share&source=collection_link&creator=20356962"
+	},
+	"item": [
+		{
+			"name": "Calcular Area",
+			"item": [
+				{
+					"name": "/api/formas/calcular-area",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tipoForma\": \"triangulo\", // opciones: \"cuadrado\", \"circulo\", \"rectangulo\", \"trapecio\", \"triangulo\"\r\n    \"dimensiones\": [5], //opciones: \"cuadrado\": [5], \"circulo\": [5], \"rectangulo\": [10, 5], \"trapecio\": [10, 6, 4, 3, 3], \"triangulo\": [5]\r\n    \"idioma\": \"fr\" // opciones: \"es\", \"en\", \"fr\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7177/api/formas/calcular-area",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"calcular-area"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Calcular Perimetro",
+			"item": [
+				{
+					"name": "/api/formas/calcular-perimetro",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tipoForma\": \"trapecio\", // opciones: \"cuadrado\", \"circulo\", \"rectangulo\", \"trapecio\", \"triangulo\"\r\n    \"dimensiones\": [10, 6, 4, 3, 3], //opciones: \"cuadrado\": [5], \"circulo\": [5], \"rectangulo\": [10, 5], \"trapecio\": [10, 6, 4, 3, 3], \"triangulo\": [5]\r\n    \"idioma\": \"fr\" // opciones: \"es\", \"en\", \"fr\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7177/api/formas/calcular-perimetro",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"formas",
+								"calcular-perimetro"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
